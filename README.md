@@ -65,10 +65,13 @@ for mgs 3 you need the above plus the -region variable to specify whether its th
 
 
 # available options
-Here are all the options:
+Here are all the options, the always what the command is followed by the command itself.
+So for example English is the language but you would use en for the variable.
+Keyboard is the controller type but you would use KBD for the variable
 
-MGS 2 and 3:
-Languages (use lowercase)
+
+# Languages (use lowercase)
+
 
 English         en
 
@@ -82,7 +85,10 @@ Spanish         sp
 
 Japanese        jp
 
-Controllers: (use uppercase)
+
+# Controllers: (use uppercase)
+
+
 keyboard        KBD
 
 Nintendo        NX
@@ -95,7 +101,11 @@ steamdeck       STMD
 
 XBOX            XBOX
 
-for MGS 3 there is also the choice of version: (use lowercase)
+
+
+# for MGS 3 there is also the choice of version: (use lowercase)
+
+
 
 Europe          eu
 
