@@ -5,7 +5,7 @@ Lets you skip the launcher while still applying the language and controller opti
 # installation
 Copy the files you want to use to the main game folder.
 
-Option 1: Always use the same settings.
+# Option 1: Always use the same settings.
 Run Launcher bypass setup for whichever game you're setting up and follow the prompts.
 This will create a file in the same location called launcherbypass.bat for mgs or launcherbypassmgs2.bat for mgs2.
 Now as long as the file created is in your main game folder, you just need to go to the games properties in steam and add the following to your launch options
@@ -20,7 +20,7 @@ Now when you start the game through steam it will skip straight to the game with
 
 
 
-Option 2: you want to select your options every time you start the game.
+# Option 2: you want to select your options every time you start the game.
 In this case just use LaunchAnyVersionmgs2.bat for mgs 2, or LaunchAnyVersionmgs3.bat for mgs 3.
 You can have this boot when you start the game in steam by adding the following to your steam properties.
 
@@ -34,7 +34,7 @@ LaunchAnyVersionmgs3.bat %command%
 
 
 
-you can also just run either file from the games folder, make a desktop shortcut if you'd like.
+You can also just run either file from the games folder, make a desktop shortcut if you'd like.
 
 
 
