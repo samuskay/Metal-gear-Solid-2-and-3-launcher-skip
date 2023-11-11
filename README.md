@@ -2,6 +2,9 @@
 This lets you skip the launcher while still applying the language and controller options you desire, and you still get to launch it through steam as usual.
 The launcher usually passes through these launch options when you start the game proper so you just skip that step.
 
+# Warning
+This is hasn't been used for an entire playthrough yet so there may be some issues I have not come accross.
+
 
 # installation
 
