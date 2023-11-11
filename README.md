@@ -70,23 +70,23 @@ Here are all the options:
 MGS 2 and 3:
 Languages
 
-English
-French
-Italian
-German
-Spanish
-Japanese
+English         en
+French          fr
+Italian         it
+German          gr
+Spanish         sp
+Japanese        jp
 
 Controllers:
-keyboard
-Nintendo
-PS4
-PS5
-steamdeck
-XBOX
+keyboard        KBD
+Nintendo        NX
+PS4             PS4
+PS5             PS5
+steamdeck       STMD
+XBOX            XBOX
 
 for MGS 3 there is also the choice of version:
 
-Europe
-US
-Japanese
+Europe          eu
+US              us
+Japanese        jp
