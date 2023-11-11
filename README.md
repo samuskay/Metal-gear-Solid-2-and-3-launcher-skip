@@ -36,7 +36,11 @@ LaunchAnyVersionmgs3.bat %command%
 
 You can also just run either file from the games folder, make a desktop shortcut if you'd like.
 
+# But I want access to the launcher still
+You still will because this only skips the launcher startup before you play the game, you can still select "back to menu" in game and it'll reload the launcher.
 
+when selecting "back to menu" it calls the launcher with the arguments
+-jump gamestart
 
 # Do I even need this?
 Well if you'd like to achieve this through other means, you can achieve a similar effect by adding the following to your launch options.
