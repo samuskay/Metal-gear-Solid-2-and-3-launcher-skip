@@ -1,5 +1,6 @@
 # Metal-gear-Solid-2-and-3-launcher-skip
 This lets you skip the launcher while still applying the language and controller options you desire, and you still get to launch it through steam as usual.
+The launcher usually passes through these launch options when you start the game proper so you just skip that step.
 
 
 # installation
@@ -44,6 +45,7 @@ when selecting "back to menu" it calls the launcher with the arguments
 
 # Do I even need this?
 Well if you'd like to achieve this through other means, you can achieve a similar effect by adding the following to your launch options.
+
 For MGS 3
 "METAL GEAR SOLID3" -region eu -lan en -selfregion EU -ctrltype NX -launcherpath %command%
 
