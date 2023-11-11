@@ -1,20 +1,4 @@
-# Do I even need this?
-Well not really, you can achieve a similar effect by adding the following to your launch options.
-For MGS 3
-"METAL GEAR SOLID3" -region eu -lan en -selfregion EU -ctrltype NX -launcherpath %command%
-
-For MGS 2
-"METAL GEAR SOLID2" -lan en -selfregion EU -ctrltype NX -launcherpath %command%
-
-The issue is that these methods will open the game in a window that needs to be alt tabbed in and out of to make it fullscreen.
-If you would like to just add them as steam launch options or make use of this information in any other way then you should be able to work out the options from reading the scripts.
-
-MGS 3 has a region setting which dictates what language settings you can use.
-
-
-
 # Metal-gear-Solid-2-and-3-launcher-skip
-Now for the script itself.
 This lets you skip the launcher while still applying the language and controller options you desire, and you still get to launch it through steam as usual.
 
 
@@ -51,6 +35,21 @@ LaunchAnyVersionmgs3.bat %command%
 
 
 You can also just run either file from the games folder, make a desktop shortcut if you'd like.
+
+
+
+# Do I even need this?
+Well if you'd like to achieve this through other means, you can achieve a similar effect by adding the following to your launch options.
+For MGS 3
+"METAL GEAR SOLID3" -region eu -lan en -selfregion EU -ctrltype NX -launcherpath %command%
+
+For MGS 2
+"METAL GEAR SOLID2" -lan en -selfregion EU -ctrltype NX -launcherpath %command%
+
+The issue is that these methods will open the game in a window that needs to be alt tabbed in and out of to make it fullscreen.
+If you would like to just add them as steam launch options or make use of this information in any other way then you should be able to work out the options from reading the scripts.
+
+MGS 3 has a region setting which dictates what language settings you can use.
 
 
 
