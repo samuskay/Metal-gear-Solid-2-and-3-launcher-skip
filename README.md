@@ -68,25 +68,37 @@ for mgs 3 you need the above plus the -region variable to specify whether its th
 Here are all the options:
 
 MGS 2 and 3:
-Languages
+Languages (use lowercase)
 
 English         en
+
 French          fr
+
 Italian         it
+
 German          gr
+
 Spanish         sp
+
 Japanese        jp
 
-Controllers:
+Controllers: (use uppercase)
 keyboard        KBD
+
 Nintendo        NX
+
 PS4             PS4
+
 PS5             PS5
+
 steamdeck       STMD
+
 XBOX            XBOX
 
-for MGS 3 there is also the choice of version:
+for MGS 3 there is also the choice of version: (use lowercase)
 
 Europe          eu
+
 US              us
+
 Japanese        jp
