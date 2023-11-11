@@ -4,26 +4,23 @@ The launcher usually passes through these launch options when you start the game
 
 
 # installation
-Copy the files you want to use to the main game folder.
 
-# Option 1: Always use the same settings.
-Run Launcher bypass setup for whichever game you're setting up and follow the prompts.
-This will create a file in the same location called launcherbypass.bat for mgs or launcherbypassmgs2.bat for mgs2.
-Now as long as the file created is in your main game folder, you just need to go to the games properties in steam and add the following to your launch options
+* Step One: Download Metal Gear Solid 2 and 3 Launcher Skip[github.com] and extract the game specific files to the main game folder.
 
-For mgs 2 add the following
-launcherbypassmgs2.bat %command%
+* Step Two: Copy the "launcher bypass setup mgs3.bat" (or mgs2 varient for mgs2) and Paste it inside the MGS3 root directory "\Steam\steamapps\common\MGS3" or "\Steam\steamapps\common\MGS2" for mgs2.
 
-For mgs 3 add the following
-launcherbypass.bat %command%
+* Step Three: Double click on the launcher bypass setup script for your game and follow the on screen instructions which will allow you to choose your Region, Language and Button Layout. Once you completed the setup a "launcherbypass.bat" file will automatically be created inside MGS3 root directory.
 
-Now when you start the game through steam it will skip straight to the game with what ever controller config you want. You can always rerun the setup file to change what options you use.
+* Step Four: Finally add the bellow command to your mgs 2 or 3 Launch Options. Now you should be able to launch directly into the game in Fullscreen. And if you're using MGSHDFix v9 [github.com] you can also skip the Konami Logo and Splash screens for a seamless transition into MGS3's main menu.
+* For mgs 2: launcherbypassmgs2.bat %command%
+* For mgs 3: launcherbypass.bat %command%
 
 
 
-# Option 2: you want to select your options every time you start the game.
-In this case just use LaunchAnyVersionmgs2.bat for mgs 2, or LaunchAnyVersionmgs3.bat for mgs 3.
-You can have this boot when you start the game in steam by adding the following to your steam properties.
+# Alternate version: Select options when you start the game
+* In this case just use LaunchAnyVersionmgs2.bat for mgs 2, or LaunchAnyVersionmgs3.bat for mgs 3.
+* This could be good for experimenting with different versions quickly.
+* You can have this boot when you start the game in steam by adding the following to your steam properties.
 
 For mgs 2 add
 LaunchAnyVersionmgs2.bat %command%
@@ -112,3 +109,8 @@ Europe          eu
 US              us
 
 Japanese        jp
+
+
+
+# Thanks
+Thanks to https://steamcommunity.com/id/OutlawXGP for writing better instructions then me which I've used to rewrite some of this readme.
