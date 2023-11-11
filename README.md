@@ -44,12 +44,16 @@ For MGS 3
 "METAL GEAR SOLID3" -region eu -lan en -selfregion EU -ctrltype NX -launcherpath %command%
 
 For MGS 2
-"METAL GEAR SOLID2" -lan en -selfregion EU -ctrltype NX -launcherpath %command%
+"METAL GEAR SOLID2" -lan en -region eu -ctrltype NX -launcherpath %command%
 
 The issue is that these methods will open the game in a window that needs to be alt tabbed in and out of to make it fullscreen.
 If you would like to just add them as steam launch options or make use of this information in any other way then you should be able to work out the options from reading the scripts.
 
 MGS 3 has a region setting which dictates what language settings you can use.
+
+for mgs 2 you need the -lan -launcherpass and -ctrltype variables
+
+for mgs 3 you need the above plus the -region variable to specify whether its the eu, us or jp version of the game that loads, this isn't needed in mgs 3 as its dictated by the language menu.
 
 
 
